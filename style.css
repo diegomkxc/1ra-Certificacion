@@ -1,0 +1,152 @@
+body { /* Todo el contenido de la pagina */
+    font-family: Arial, sans-serif;
+    background-color: #1a1919;
+    color: #fff;
+    margin: 0;
+}
+
+header { /* Header completo */
+    background-color: #1a1919;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo { /* Logo header */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact { /* Contacto */
+    font-size: 14px;
+}
+
+nav { /* Barra de navegacion */
+    background-color: #444; 
+}
+
+nav ul { /* Lista de links */
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+nav li { /* Todo contenido li */
+    border-radius: 5px; 
+}
+
+nav li:hover { /* Fondo li */
+    background-color: #e67e22;
+}
+
+nav a { /* Links del nav */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block; 
+}
+
+.hero img { /* Imagen principa */
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-color: #7c7c7c;
+}
+
+.features { /* Todo el contenido de la parte "compra" */
+    padding: 20px;
+    text-align: center;
+    background-color: #0f0f0f;
+}
+
+.features { /* Boton de compra */
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+.portfolio { /* Todo contenido del portfolio */
+    padding: 20px;
+}
+
+.portfolio-items { /* Box conetenido portfolio */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item { /* Items del potafolio */
+ 
+    padding: 10px;
+    flex: 1 1 200px; 
+    text-align: center;
+}
+
+.item img { /* Fotos portfolio */
+    max-width: 100%;
+    height: auto;
+    border-style: solid;
+    border-color: #7c7c7c;
+}
+
+.view-all { /* View all projects zone */
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    color: #e67e22;
+}
+
+footer { /* Pie de pagina */
+    text-align: center;
+    padding: 10px;
+}
+
+
+.features-list { /* Listas */
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1919; 
+    padding: 30px; 
+    margin: 20px 0; 
+    border-radius: 8px; 
+}
+
+.feature-item { /* Contenido bajo main pic */
+    flex: 1; 
+    text-align: left; 
+    margin: 0 15px;
+    color: #fff; 
+    padding: 10px; 
+    background-color: #1a1919; 
+    border-radius: 5px; 
+}
+
+.feature-icon { /* Espacio bajo el icono */
+    margin-bottom: 10px; 
+}
+
+.feature-icon img { /* Medidas iconos */
+    width: 50px; 
+    height: auto; 
+}
+
+.porth3{
+    color: #e67e22;
+}
+
+.btt{
+    display: block;
+    text-align: right;
+    color: #7c7c7c;
+}
+
+.container{
+    background-color: #e67e22;
+    padding: 10px 20px;
+    color: #fff;
+    display: block;
+    align-items: flex-end;
+    
+}
